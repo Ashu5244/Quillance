@@ -1,5 +1,12 @@
 import React from "react";
+import type { Metadata } from "next";
 import { HeroSection } from "./sections/home/HeroSection";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 import { PartnerCompaniesSection } from "@/components/shared/PartnerCompaniesSection";
 import { RecognitionsSection } from "@/components/shared/RecognitionsSection";
 import { PoweredBySection } from "@/components/shared/PoweredBySection";

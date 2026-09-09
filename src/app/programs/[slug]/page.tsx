@@ -36,6 +36,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${programMatch.title} | Quillance`,
     description: programMatch.desc,
+    alternates: {
+      canonical: `/programs/${slug}`,
+    },
   };
 }
 

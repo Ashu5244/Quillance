@@ -1,5 +1,14 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { LegalPageLayout } from '@/components/legal/LegalPageLayout';
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Quillance",
+  description: "Learn about how Quillance collects, uses, and protects your personal data and privacy.",
+  alternates: {
+    canonical: "/legal/privacy-policy",
+  },
+};
 
 export default function PrivacyPolicyPage() {
   const sections = [

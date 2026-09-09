@@ -1,5 +1,14 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { LegalPageLayout } from '@/components/legal/LegalPageLayout';
+
+export const metadata: Metadata = {
+  title: "Refund Policy | Quillance",
+  description: "Read Quillance's refund and cancellation policies for training cohorts and programs.",
+  alternates: {
+    canonical: "/legal/refund-policy",
+  },
+};
 
 export default function RefundPolicyPage() {
   const sections = [
