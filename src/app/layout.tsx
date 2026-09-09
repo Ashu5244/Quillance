@@ -14,9 +14,6 @@ export const metadata: Metadata = {
   title: "Quillance | Empowering Youth to Lead the Global Workforce",
   description: "Quillance aligns tech education with industry demands, empowering youth globally through rigorous skill development and verified certifications.",
   metadataBase: new URL("https://quillance.com"),
-  alternates: {
-    canonical: "/",
-  },
   keywords: ["Quillance", "Career Accelerator", "Tech Education", "Internships", "Job Readiness", "Live Training", "Mentorship", "Skill Development", "Industry Demand"],
   robots: {
     index: true,

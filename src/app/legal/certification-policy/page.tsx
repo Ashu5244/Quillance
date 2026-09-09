@@ -1,5 +1,14 @@
 import React from 'react';
+import type { Metadata } from 'next';
 import { LegalPageLayout } from '@/components/legal/LegalPageLayout';
+
+export const metadata: Metadata = {
+  title: "Certification Policy | Quillance",
+  description: "Learn about Quillance's certification eligibility, authenticity, and verification guidelines.",
+  alternates: {
+    canonical: "/legal/certification-policy",
+  },
+};
 
 export default function CertificationPolicyPage() {
   const sections = [
