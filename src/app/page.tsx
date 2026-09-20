@@ -14,6 +14,7 @@ import { HiringPartnersSection } from "@/components/shared/HiringPartnersSection
 import { HowItWorksSection } from "@/components/shared/HowItWorksSection";
 import { CertificationSection } from "@/components/shared/CertificationSection";
 import { FAQSection } from "@/components/shared/FAQSection";
+import { ConsultationModal } from "@/components/shared/ConsultationModal";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <HowItWorksSection />
       <CertificationSection />
       <FAQSection />
+      <ConsultationModal />
     </>
   );
 }
