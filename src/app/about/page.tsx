@@ -242,7 +242,7 @@ export default function AboutPage() {
           <InfiniteMovingCards
             items={[
               { title: "Experts Led", desc: "Learn from mentors currently working at MAANG & Top Tech firms.", icon: <Users /> },
-              { title: "ISO Certified", desc: "Government recognized (DPIIT) & ISO 9001:2015 certified programs.", icon: <ShieldCheck /> },
+              { title: "ISO Certified", desc: "Government recognized (DPIIT) & ISO 9001:2026 certified programs.", icon: <ShieldCheck /> },
               { title: "Live Cohorts", desc: "Interactive live training - no outdated pre-recorded videos.", icon: <Zap /> },
               { title: "Work Ready", desc: "Resume building, mock interviews, and LinkedIn optimization.", icon: <Star /> }
             ]}
