@@ -15,7 +15,7 @@ const recognitions = [
     tiltClass: "rotate-0"
   },
   {
-    title: "ISO 9001:2015",
+    title: "ISO 9001:2026",
     subtitle: "Quality Certified",
     description: "Certified for maintaining world-class quality management systems in education.",
     gradient: "from-blue-500 to-cyan-500",
@@ -45,7 +45,7 @@ export const RecognitionsSection = () => {
           <span className="text-blue-400">APPROVED BY THE GOVERNMENT.</span>
         </h2>
         <p className="text-lg md:text-xl text-slate-400 max-w-4xl mx-auto leading-relaxed">
-          We are proud to be a DPIIT-recognized startup, backed by ISO 9001:2015 certification to deliver world-class, quality-controlled professional training.
+          We are proud to be a DPIIT-recognized startup, backed by ISO 9001:2026 certification to deliver world-class, quality-controlled professional training.
         </p>
       </div>
 
